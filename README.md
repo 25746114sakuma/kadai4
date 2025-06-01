@@ -1,3 +1,6 @@
+学籍番号；25746114
+githubURL；https://github.com/25746114sakuma/kadai4_GCD.git
+
 # kadai4_GCD
 ## 概要
 このリポジトリには、2つの正の整数の最大公約数（GCD）を計算するシェルスクリプトが含まれています。\
