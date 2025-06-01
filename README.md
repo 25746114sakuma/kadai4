@@ -1,5 +1,5 @@
-学籍番号；25746114
-githubURL；https://github.com/25746114sakuma/kadai4_GCD.git
+学籍番号:25746114\
+githubURL:https://github.com/25746114sakuma/kadai4_GCD.git
 
 # kadai4_GCD
 ## 概要
