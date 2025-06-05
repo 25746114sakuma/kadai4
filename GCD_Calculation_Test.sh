@@ -32,9 +32,9 @@ test_gcd_error() {
     output=$(./GCD_Calculation.sh "$@" 2>&1)
 
     if [[ "$output" =~ エラー ]]; then
-        echo "OK: 異常入力 [$*] に対して適切にエラー出力"
+        echo "OK: gcd($*) => エラー出力を確認 (出力: $output)"
     else
-        echo "NG: 異常入力 [$*] に対してエラーが出力されなかった (出力: $output)"
+        echo "NG: gcd($*) => エラーが出力されなかった (出力: $output)"
         current_test_status="NG"
     fi
 
