@@ -39,7 +39,7 @@ chmod +x GCD_Calculation.sh GCD_Calculation_Test.sh  # 実行権限の付与
 - 負の数や小数
 - 文字列を入力
 - 0 を含む入力
-- 非常に大きな数（例: 10の15乗以上）は、処理に時間がかかる可能性があります
+- 非常に大きな数（例: 10の15乗以上）
 
 入力例:
 ./GCD_Calculation.sh abc 5
@@ -84,7 +84,7 @@ jobs:
         run: ./GCD_Calculation_Test.sh
 ```
 ■自動テスト動作概要
-- main ブランチへの push や pull request が行われると、自動でテストスクリプトが実行されます。
+- main ブランチへの pushが行われると、自動でテストスクリプトが実行されます。
 - ubuntu-latest 環境で動作します。
 - 全てのテストが成功すれば Success、失敗すれば Failed になります。
 
