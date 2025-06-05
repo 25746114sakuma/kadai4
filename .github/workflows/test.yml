@@ -7,10 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-	uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
-　　　- name: Permission Setting
-　　　　run: chmod +x GCD_Calculation.sh GCD_Calculation_Test.sh
+      - name: Permission Setting
+        run: chmod +x GCD_Calculation.sh GCD_Calculation_Test.sh
 
       - name: テストスクリプトを実行
         run: ./GCD_Calculation_Test.sh
+
