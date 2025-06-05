@@ -49,7 +49,6 @@ test_gcd_success 48 18 6
 test_gcd_success 101 103 1
 test_gcd_success 56 98 14
 test_gcd_success 2 4 2
-test_gcd_success 2 4 3
 
 # ========== 異常系テスト ==========
 test_gcd_error 0 4                 # 0 は許可されない
