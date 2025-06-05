@@ -20,7 +20,11 @@ githubURL:https://github.com/25746114sakuma/kadai4.git
 ## インストール方法
 本スクリプトを使用するには、以下の手順でリポジトリをクローンしてください。
 ```bash
-git clone https://github.com/25746114sakuma/kadai4_GCD.git
+[httpsの場合]
+git clone https://github.com/25746114sakuma/kadai4.git
+[SSHの場合]
+git clone git@github.com:25746114sakuma/kadai4.git
+
 cd kadai4_GCD
 chmod +x GCD_Calculation.sh GCD_Calculation_Test.sh  # 実行権限の付与
 ```
