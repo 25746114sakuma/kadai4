@@ -5,10 +5,12 @@ on: [push]
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout
+	uses: actions/checkout@v4
 
-      - name: Run test script
+　　　- name: Permission Setting
+　　　　run: chmod +x GCD_Calculation.sh GCD_Calculation_Test.sh
+
+      - name: テストスクリプトを実行
         run: ./GCD_Calculation_Test.sh
