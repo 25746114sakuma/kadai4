@@ -68,20 +68,17 @@ OK: gcd(0, 4) => エラー出力を確認 (出力: エラー: 正の整数2つ�
 ```plaintext
 name: Shell Script Test
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push]
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: リポジトリをチェックアウト
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Permission Setting
+        run: chmod +x GCD_Calculation.sh GCD_Calculation_Test.sh
 
       - name: テストスクリプトを実行
         run: ./GCD_Calculation_Test.sh
