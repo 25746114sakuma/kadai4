@@ -25,7 +25,7 @@ git clone https://github.com/25746114sakuma/kadai4.git
 [SSHの場合]
 git clone git@github.com:25746114sakuma/kadai4.git
 
-cd kadai4_GCD
+cd kadai4
 chmod +x GCD_Calculation.sh GCD_Calculation_Test.sh  # 実行権限の付与
 ```
 ## 使い方
