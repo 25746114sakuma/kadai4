@@ -37,7 +37,9 @@ chmod +x GCD_Calculation.sh GCD_Calculation_Test.sh  # 実行権限の付与
 ### 2つの正の整数を入力すると、最大公約数を計算します。
 
 入力例:
+```bash
 ./GCD_Calculation.sh 48 18
+```
 
 出力例:
 最大公約数: 6
